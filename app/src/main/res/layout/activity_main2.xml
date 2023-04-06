@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"
+        android:background="@drawable/border"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#5c698b"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="20dp"
+        android:gravity="center"
+        android:text="Add a vehicle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9BA8CA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="This information will help us"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9BA8CA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="provide the most"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9BA8CA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="relevant data"/>
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_marginVertical="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:textColor="@color/white"
+        android:padding="14dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/borderforregisterbutton"
+        android:text="Add +"
+        android:textAllCaps="false"
+        />
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#4F6F88"
+        android:paddingVertical="14dp"
+        android:paddingHorizontal="80dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/border"
+        android:text="skip"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
